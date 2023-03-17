@@ -2,7 +2,7 @@
 
 def Camera "shot_cam"
 {
-    matrix4d xformOp:transform = ( (1, 0, 0, 0), (0, 1, 0, 0), (0, 0, 1, 0), (0, 0.5, 10, 1) )
+    matrix4d xformOp:transform = ( (1, 0, 0, 0), (0, 1, 0, 0), (0, 0, 1, 0), (0, 0.5, 10, 11) )
     uniform token[] xformOpOrder = ["xformOp:transform"]
 
     string focalLength = "test"
@@ -10,7 +10,7 @@ def Camera "shot_cam"
 
 def DistantLight "d_light"
 {
-    matrix4d xformOp:transform = ( (0, 0, 1, 0), (0, 1, 0, 0), (-1, 0, 0, 0), (-10, 0, 0, 1) )
+    matrix4d xformOp:transform = ( (0, 0, 1, 0), (0, 1, 0, 0), (-1, 0, 0, 0), (-10, 0, 0, 10) )
     uniform token[] xformOpOrder = ["xformOp:transform"]
     float intensity = 1
     bool normalize = true
