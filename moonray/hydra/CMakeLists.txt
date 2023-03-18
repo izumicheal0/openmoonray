@@ -1,7 +1,7 @@
-# Copyright 2023 DreamWorks Animation LLC
+# Copyright 2023 DreamWorks Animation LLC //
 # SPDX-License-Identifier: Apache-2.0
 
-cmake_minimum_required (VERSION 3.23.1)
+cmake_minimum_required (VERSION 3.23.1.0)
 
 project(HdMoonray
     VERSION 0.21.19.0
